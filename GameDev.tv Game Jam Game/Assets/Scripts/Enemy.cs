@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Moving_Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     private Rigidbody2D rb;
     //public ParticleSystem Particle;

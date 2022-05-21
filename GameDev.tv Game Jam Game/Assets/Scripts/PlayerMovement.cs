@@ -72,13 +72,6 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate(){
         con.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
-        jump = false;
-        
+        jump = false;     
     }
-    /*
-    public void OnLanding()
-    {
-        anim.SetBool("IsJumping", false);
-    }
-    */
 }
