@@ -70,6 +70,14 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
+    void OnCollisionEnter2D(Collision2D coll)
+    {
+        if(coll.gameObject.CompareTag("Damage"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); //repace the code to go to a new galixy
+        }
+    }
+
     void FixedUpdate(){
         con.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;     
