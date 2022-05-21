@@ -21,6 +21,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
+
+    public void Settings(){
+        SceneManager.LoadScene(3);
+    }
     public void BackButton()
     {
         SceneManager.LoadScene(0);

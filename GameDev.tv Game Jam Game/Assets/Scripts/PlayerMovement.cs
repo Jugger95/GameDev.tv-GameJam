@@ -9,8 +9,8 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController2D con;   
     public Animator anim;
    // public ParticleSystem Particle;
-   // public AudioSource JumpSound;
-   // public AudioSource KilledSound;
+    public AudioSource JumpSound;
+    public AudioSource KilledSound;
     //public Rigidbody2D rb;
     public CircleCollider2D circle;
 
@@ -42,8 +42,7 @@ public class PlayerMovement : MonoBehaviour
             if(Input.GetButtonDown("Jump") && jump == false)
             {
                 jump = true;
-                //JumpSound.Play();
-               // anim.SetBool("IsJumping", true);
+                JumpSound.Play();
                 crouch = false;
             }
 
