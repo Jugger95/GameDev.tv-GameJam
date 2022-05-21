@@ -811,8 +811,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You are a astronaut and you are trying to explore 3 planets in a row but
-    if you dye on any of the planets you will have to start all over on a new galexy
+  m_text: You are an astronaut and you are trying to explore 3 planets in a row but
+    if you die on any of the planets you will have to start all over on a new galaxy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
