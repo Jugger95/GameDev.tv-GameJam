@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Blinking Eye yellow
+  m_Name: Blinking Eye Yellow
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -21,39 +21,39 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: -621539777, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - time: 0.2
+    - time: 0.45
       value: {fileID: 1586158156, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - time: 0.51666665
+    - time: 0.9
       value: {fileID: 1248006794, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - time: 0.71666664
+    - time: 1.25
       value: {fileID: -213017150, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - time: 0.98333335
+    - time: 1.5166667
       value: {fileID: 1059142341, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - time: 1.2
-      value: {fileID: -621539777, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - time: 1.5
+    - time: 1.8666667
+      value: {fileID: 1741090374, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
+    - time: 2.2
       value: {fileID: -2145473747, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - time: 1.7166667
+    - time: 2.4833333
       value: {fileID: -561207200, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - time: 1.9833333
+    - time: 2.7166667
       value: {fileID: 2038791656, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - time: 2.2833333
+    - time: 3.05
       value: {fileID: -832482554, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - time: 2.6833334
-      value: {fileID: 1911535717, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - time: 3
+    - time: 3.3166666
       value: {fileID: 664288278, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - time: 3.2
+    - time: 3.5666666
       value: {fileID: 2018645738, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - time: 3.4833333
+    - time: 3.7666667
       value: {fileID: -1998790832, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - time: 3.6833334
+    - time: 3.9666667
+      value: {fileID: -994511595, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
+    - time: 4.3
       value: {fileID: 419025950, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - time: 3.9333334
+    - time: 4.4666667
       value: {fileID: -433596354, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - time: 4.15
+    - time: 4.7166667
       value: {fileID: 810357179, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - time: 4.3333335
+    - time: 5.0333333
       value: {fileID: -949174450, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
     attribute: m_Sprite
     path: 
@@ -79,15 +79,15 @@ AnimationClip:
     - {fileID: 1248006794, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
     - {fileID: -213017150, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
     - {fileID: 1059142341, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - {fileID: -621539777, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
+    - {fileID: 1741090374, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
     - {fileID: -2145473747, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
     - {fileID: -561207200, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
     - {fileID: 2038791656, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
     - {fileID: -832482554, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
-    - {fileID: 1911535717, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
     - {fileID: 664288278, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
     - {fileID: 2018645738, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
     - {fileID: -1998790832, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
+    - {fileID: -994511595, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
     - {fileID: 419025950, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
     - {fileID: -433596354, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
     - {fileID: 810357179, guid: 53bfdff8be1f50345a39867fa4d19731, type: 3}
@@ -97,7 +97,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 4.3500004
+    m_StopTime: 5.05
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
