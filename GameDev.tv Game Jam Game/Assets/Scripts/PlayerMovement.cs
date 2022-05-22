@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
             
-            if(Input.GetButtonDown("Jump") && jump == false)
+            if(Input.GetButtonDown("Jump") && jump == false && crouch == false)
             {
                 jump = true;
                 JumpSound.Play();
