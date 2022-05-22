@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
 
 
     public float runSpeed = 40f;
+    public int NextGalaxy;
 
     float horizontalMove = 0f;
 
@@ -46,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
                 crouch = false;
             }
 
-            if(Input.GetKeyDown(KeyCode.S))
+            if(Input.GetKeyDown(KeyCode.S) && jump == false)
             {
                 crouch = true;
                 transform.localScale = new Vector3(5f, 2.5f, 0f);
@@ -54,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
 
             }
 
-            if(Input.GetKeyUp(KeyCode.S))
+            if(Input.GetKeyUp(KeyCode.S) && jump == false)
             {
                 crouch = false;
                 transform.localScale = new Vector3(5f, 5f, 0f);
@@ -73,7 +74,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(coll.gameObject.CompareTag("Damage"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); //repace the code to go to a new galixy
+            SceneManager.LoadScene(NextGalaxy);
         }
     }
 
