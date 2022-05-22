@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Galaxy 2 Planet 1.unity
     guid: d0257a44fd798454fa369a4c931ed665
   - enabled: 1
+    path: Assets/Scenes/Galaxy 2 Planet 2.unity
+    guid: b4ca6aff1b1bb0a46884d026c1848458
+  - enabled: 1
     path: Assets/Scenes/GameEnd.unity
     guid: 327d65bef3379a8488ec445f8fcfba40
   m_configObjects: {}
