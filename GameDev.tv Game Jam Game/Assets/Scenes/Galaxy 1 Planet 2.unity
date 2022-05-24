@@ -8722,6 +8722,7 @@ Transform:
   m_Children:
   - {fileID: 1367656203}
   - {fileID: 511821636}
+  - {fileID: 1948228145}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8742,6 +8743,8 @@ MonoBehaviour:
   JumpSound: {fileID: 1181258222}
   KilledSound: {fileID: 79047951}
   circle: {fileID: 1231373082}
+  GalaxyLoader: {fileID: 1948228146}
+  NewGalaxy: {fileID: 1948228144}
   runSpeed: 60
   NextGalaxy: 7
 --- !u!58 &1231373082
@@ -32931,7 +32934,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!114 &1453368755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33284,7 +33287,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.5958904, y: 1}
+    m_SensorSize: {x: 1.6712328, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -144037,6 +144040,78 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1948228143
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1231373080}
+    m_Modifications:
+    - target: {fileID: 1482044990724124787, guid: 4909feb046e29774cb1c05b28336b7d9, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482044990724124787, guid: 4909feb046e29774cb1c05b28336b7d9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5699536
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482044990724124787, guid: 4909feb046e29774cb1c05b28336b7d9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9128043
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482044990724124787, guid: 4909feb046e29774cb1c05b28336b7d9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482044990724124787, guid: 4909feb046e29774cb1c05b28336b7d9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482044990724124787, guid: 4909feb046e29774cb1c05b28336b7d9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482044990724124787, guid: 4909feb046e29774cb1c05b28336b7d9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482044990724124787, guid: 4909feb046e29774cb1c05b28336b7d9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482044990724124787, guid: 4909feb046e29774cb1c05b28336b7d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482044990724124787, guid: 4909feb046e29774cb1c05b28336b7d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482044990724124787, guid: 4909feb046e29774cb1c05b28336b7d9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1482044990724124789, guid: 4909feb046e29774cb1c05b28336b7d9, type: 3}
+      propertyPath: m_Name
+      value: New Galaxy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4909feb046e29774cb1c05b28336b7d9, type: 3}
+--- !u!1 &1948228144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1482044991230266682, guid: 4909feb046e29774cb1c05b28336b7d9, type: 3}
+  m_PrefabInstance: {fileID: 1948228143}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1948228145 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1482044990724124787, guid: 4909feb046e29774cb1c05b28336b7d9, type: 3}
+  m_PrefabInstance: {fileID: 1948228143}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1948228146 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1482044991230266680, guid: 4909feb046e29774cb1c05b28336b7d9, type: 3}
+  m_PrefabInstance: {fileID: 1948228143}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2132483527
 GameObject:
   m_ObjectHideFlags: 0

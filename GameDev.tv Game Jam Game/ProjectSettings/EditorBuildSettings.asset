@@ -45,6 +45,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Galaxy 3 Planet 3.unity
     guid: 8891779e6a669fe4fa7127e9b0a387de
   - enabled: 1
+    path: Assets/Scenes/Galaxy 4 Planet 1.unity
+    guid: b9abfdcf6bc7c0c43b29518323ca7810
+  - enabled: 1
     path: Assets/Scenes/GameEnd.unity
     guid: 327d65bef3379a8488ec445f8fcfba40
   m_configObjects: {}

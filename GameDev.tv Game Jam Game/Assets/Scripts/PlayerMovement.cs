@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     public AudioSource KilledSound;
     //public Rigidbody2D rb;
     public CircleCollider2D circle;
+    public Animator GalaxyLoader;
+    public GameObject NewGalaxy;
 
 
     public float runSpeed = 40f;
@@ -62,10 +64,6 @@ public class PlayerMovement : MonoBehaviour
                 circle.radius = 0.2010212f;
             }
 
-            if(Input.GetKeyDown(KeyCode.M))
-            {
-                SceneManager.LoadScene(0);
-            }
         }
         
     }
@@ -74,8 +72,17 @@ public class PlayerMovement : MonoBehaviour
     {
         if(coll.gameObject.CompareTag("Damage"))
         {
-            SceneManager.LoadScene(NextGalaxy);
+            StartCoroutine(ChangeScene((NextGalaxy)));
         }
+    }
+
+    IEnumerator ChangeScene(int levelIndex)
+    {
+        NewGalaxy.GetComponent<Animator>().SetTrigger("Next");
+
+        yield return new WaitForSeconds(2.1f);
+
+        SceneManager.LoadScene(levelIndex);
     }
 
     void FixedUpdate(){
