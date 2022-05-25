@@ -48,6 +48,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Galaxy 4 Planet 1.unity
     guid: b9abfdcf6bc7c0c43b29518323ca7810
   - enabled: 1
+    path: Assets/Scenes/Galaxy 4 Planet 2.unity
+    guid: 80eb514389f93a1498047c24a10bfd5d
+  - enabled: 1
+    path: Assets/Scenes/Galaxy 4 Planet 3.unity
+    guid: 302e22f3e5e8e6d4ba71f7f95fcfa02a
+  - enabled: 1
+    path: Assets/Scenes/Galaxy 5 Planet 1.unity
+    guid: cebac8d0602019043b0be540918fe194
+  - enabled: 1
+    path: Assets/Scenes/Galaxy 5 Planet 2.unity
+    guid: 59163fd7fb2eea84bb26fab0118fe5be
+  - enabled: 1
     path: Assets/Scenes/GameEnd.unity
     guid: 327d65bef3379a8488ec445f8fcfba40
   m_configObjects: {}
