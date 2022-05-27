@@ -79,6 +79,8 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator ChangeScene(int levelIndex)
     {
         NewGalaxy.GetComponent<Animator>().SetTrigger("Next");
+        GetComponent<SpriteRenderer>().enabled = false;
+        runSpeed = 0f;
 
         yield return new WaitForSeconds(2.1f);
 
