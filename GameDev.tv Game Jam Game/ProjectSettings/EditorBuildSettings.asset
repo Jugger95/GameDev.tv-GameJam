@@ -72,6 +72,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Galaxy 6/Galaxy 6 Planet 3.unity
     guid: 8db7d297e9d8e4147a939210688e15e7
   - enabled: 1
+    path: Assets/Scenes/Galaxy 7/Galaxy 7 Planet 1.unity
+    guid: 499cdac27dbe48341a03a1865a1797ff
+  - enabled: 1
+    path: Assets/Scenes/Galaxy 7/Galaxy 7 Planet 2.unity
+    guid: 5fdd3a0b6314b0644a7d631726c77819
+  - enabled: 1
+    path: Assets/Scenes/Galaxy 7/Galaxy 7 Planet 3.unity
+    guid: bcb3c595e51b315429958764a6db2c7f
+  - enabled: 1
     path: Assets/Scenes/Menu/GameEnd.unity
     guid: 327d65bef3379a8488ec445f8fcfba40
   m_configObjects: {}
