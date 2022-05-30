@@ -25,8 +25,17 @@ public class MainMenu : MonoBehaviour
     public void Settings(){
         SceneManager.LoadScene(3);
     }
+  
     public void BackButton()
     {
         SceneManager.LoadScene(0);
+    }
+
+    void Update()
+    {
+        if(Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
     }
 }
