@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class LastGalaxyGoToStart : MonoBehaviour
 {
+
+    public int GoToStartSceneNumber = 4;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +23,7 @@ public class LastGalaxyGoToStart : MonoBehaviour
     {
         if(coll.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(GoToStartSceneNumber);
         }
     }
 }

@@ -81,6 +81,33 @@ EditorBuildSettings:
     path: Assets/Scenes/Galaxy 7/Galaxy 7 Planet 3.unity
     guid: bcb3c595e51b315429958764a6db2c7f
   - enabled: 1
+    path: Assets/Scenes/Galaxy 8/Galaxy 8 Planet 1.unity
+    guid: 52fd4645756f26b448716aec1f4e7021
+  - enabled: 1
+    path: Assets/Scenes/Galaxy 8/Galaxy 8 Planet 2.unity
+    guid: b4c5082bbdc1c85478ebbd090f518579
+  - enabled: 1
+    path: Assets/Scenes/Galaxy 8/Galaxy 8 Planet 3.unity
+    guid: 1c05c96b1436c2846a25acc2968f9d4f
+  - enabled: 1
+    path: Assets/Scenes/Galaxy 9/Galaxy 9 Planet 1.unity
+    guid: 9abe15023df827344a616c2d0f6ea53c
+  - enabled: 1
+    path: Assets/Scenes/Galaxy 9/Galaxy 9 Planet 2.unity
+    guid: 9c338f87c70601c4aa4ec61eca962c0d
+  - enabled: 1
+    path: Assets/Scenes/Galaxy 9/Galaxy 9 Planet 3.unity
+    guid: 759fa132f9c06f14c8b83b5e2b95beae
+  - enabled: 1
+    path: Assets/Scenes/Galaxy 10/Galaxy 10 Planet 1.unity
+    guid: eae2d337600025d4e9c186e35f556a84
+  - enabled: 1
+    path: Assets/Scenes/Galaxy 10/Galaxy 10 Planet 2.unity
+    guid: 548c247a91fb6cd4ea30abab8e99b539
+  - enabled: 1
+    path: Assets/Scenes/Galaxy 10/Galaxy 10 Planet 3.unity
+    guid: 1c80c4bcc0635214f9380b1207449a29
+  - enabled: 1
     path: Assets/Scenes/Menu/GameEnd.unity
     guid: 327d65bef3379a8488ec445f8fcfba40
   m_configObjects: {}
