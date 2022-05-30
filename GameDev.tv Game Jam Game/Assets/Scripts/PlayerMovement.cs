@@ -49,6 +49,13 @@ public class PlayerMovement : MonoBehaviour
                 crouch = false;
             }
 
+            if(Input.GetKeyDown(KeyCode.UpArrow) && jump == false && crouch == false)
+            {
+                jump = true;
+                JumpSound.Play();
+                crouch = false;
+            }
+
             if(Input.GetKeyDown(KeyCode.S) && jump == false)
             {
                 crouch = true;
@@ -57,7 +64,22 @@ public class PlayerMovement : MonoBehaviour
 
             }
 
+            if(Input.GetKeyDown(KeyCode.DownArrow) && jump == false)
+            {
+                crouch = true;
+                transform.localScale = new Vector3(5f, 2.5f, 0f);
+                circle.radius = 0.1005106f;
+
+            }
+
             if(Input.GetKeyUp(KeyCode.S) && jump == false)
+            {
+                crouch = false;
+                transform.localScale = new Vector3(5f, 5f, 0f);
+                circle.radius = 0.2010212f;
+            }
+
+            if(Input.GetKeyUp(KeyCode.DownArrow) && jump == false)
             {
                 crouch = false;
                 transform.localScale = new Vector3(5f, 5f, 0f);
