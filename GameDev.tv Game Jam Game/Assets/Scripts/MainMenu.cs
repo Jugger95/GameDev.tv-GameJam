@@ -30,12 +30,4 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
-
-    void Update()
-    {
-        if(Input.GetKey("escape"))
-        {
-            Application.Quit();
-        }
-    }
 }
