@@ -28,7 +28,8 @@ public class Enemy : MonoBehaviour
     {
         rb.velocity = new Vector2(MoveSpeed, MoveUpSpeed);
     }
-
+    
+    /*
     void OnTriggerEnter2D(Collider2D coll)
     {
         if(coll.gameObject.CompareTag("Player"))
@@ -36,4 +37,5 @@ public class Enemy : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
+    */
 }
